@@ -1,0 +1,43 @@
+body{
+    color: white;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0735a0 50%, #cfe9ff 50%);
+    border: solid;
+    border-radius: 10px;
+}
+#Titulo{
+    text-align: center;
+    border-radius: 2px solid;
+    background-color: rgb(255, 255, 255);
+    border: solid white;
+    border-radius: 10px;
+    margin-left: 300px;
+    display: inline-block; 
+    margin-top: 0;
+    color: #0735a0; 
+}
+#menu {
+      position: fixed;     /* fixa na tela */
+      top: 0;
+      left: 0;            /* lateral direita */
+      width: 400px;        /* largura do retângulo */
+      height: 100vh;       /* ocupa toda a altura da tela */
+      background-color: rgb(219, 219, 219);
+      border-left: 10px solid #000000;
+}
+#botao {
+      display: inline-block;       /* Faz o link se comportar como bloco */
+      padding: 10px 20px;          /* Espaço interno */
+      background-color: #4CAF50;   /* Cor de fundo (verde) */
+      color: white;                /* Texto branco */
+      text-decoration: none;       /* Remove sublinhado */
+      border-radius: 5px;          /* Bordas arredondadas */
+      font-weight: bold;
+      transition: background-color 0.3s ease; /* Animação suave */
+      font-size: 40px;
+    }
+
+    #botao:hover {
+      background-color: #45a049;
+    }       
